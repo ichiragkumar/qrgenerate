@@ -2,6 +2,15 @@ const wrapper = document.querySelector(".wrapper"),
 qrInput = wrapper.querySelector(".forum input"),
 generateBtn = wrapper.querySelector(".forum button"),
 qrImage = wrapper.querySelector(".qr-code img");
+qrInput = wrapper.querySelector(".forum input"),
+generateBtn = wrapper.querySelector(".forum button"),
+qrImage = wrapper.querySelector(".qr-code img");
+qrInput = wrapper.querySelector(".forum input"),
+generateBtn = wrapper.querySelector(".forum button"),
+qrImage = wrapper.querySelector(".qr-code img");
+qrInput = wrapper.querySelector(".forum input"),
+generateBtn = wrapper.querySelector(".forum button"),
+qrImage = wrapper.querySelector(".qr-code img");
 
 
 generateBtn.addEventListener("click", () =>{
