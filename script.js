@@ -5,7 +5,13 @@ qrImage = wrapper.querySelector(".qr-code img");
 
 
 generateBtn.addEventListener("click", () =>{
-    let qrValue = qrInput.value;
+    let qrValue = qrInput.value;const wrapper = document.querySelector(".wrapper"),
+qrInput = wrapper.querySelector(".forum input"),
+generateBtn = wrapper.querySelector(".forum button"),
+qrImage = wrapper.querySelector(".qr-code img");
+
+
+generateBtn.addEventListener("click", () =>{
 
     // console.log(qrValue);
     if(!qrValue) 
